@@ -22,6 +22,7 @@ Examples.particles = (function(){
 
   function initScene() {
     renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.setClearColor(0x000000, 1);
     document.getElementById('webgl-container').appendChild(renderer.domElement);
 
     scene.add(light);
