@@ -25,7 +25,7 @@ Examples.example4 = (function(){
     scene.add(camera);
 
     var loader = new THREE.JSONLoader();
-    loader.load('models/example3.js', function(geometry, materials){
+    loader.load('models/example4.js', function(geometry, materials){
       var material = new THREE.MeshPhongMaterial({
         color: 0x779ECB
       });
